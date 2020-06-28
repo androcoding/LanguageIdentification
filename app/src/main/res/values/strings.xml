@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LanguageIdentification</string>
+    <string name="identity">IDENTITY</string>
+</resources>

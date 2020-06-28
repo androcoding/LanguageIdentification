@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+ <TextView
+     android:textColor="#E11515"
+     android:textSize="30sp"
+     android:layout_marginTop="100dp"
+     android:gravity="center_horizontal"
+     android:id="@+id/res"
+     android:text=""
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     tools:ignore="HardcodedText" />
+
+    <EditText
+        android:ems="10"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/res"
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        tools:ignore="Autofill,HardcodedText,LabelFor" />
+    <Button
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="#2962FF"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/edit"
+        android:text="@string/identity"
+        android:id="@+id/identity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
